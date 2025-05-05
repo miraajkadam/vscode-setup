@@ -1,0 +1,155 @@
+{
+  // <<----------------- Terminal ------------------------------------------------------------->>
+  "terminal.integrated.profiles.windows": {
+    "PowerShell": {
+      "source": "PowerShell",
+      "icon": "terminal-powershell"
+    },
+    "Command Prompt": {
+      "path": ["${env:windir}\\Sysnative\\cmd.exe", "${env:windir}\\System32\\cmd.exe"],
+      "args": [],
+      "icon": "terminal-cmd"
+    },
+    "Git Bash": {
+      "source": "Git Bash"
+    },
+    "Linux-Bash": {
+      "path": ["C:\\Program Files\\Git\\usr\\bin\\bash.exe"],
+      "args": ["--login"]
+    }
+  },
+  "terminal.integrated.defaultProfile.windows": "Command Prompt",
+  "terminal.integrated.fontSize": 12,
+  "terminal.integrated.stickyScroll.enabled": true,
+
+  // <<----------------- Language --------------------------------------------------------------------->>
+  "typescript.suggest.paths": false,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "javascript.suggest.paths": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "[python]": {
+    "editor.formatOnType": true,
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  },
+  "python.defaultInterpreterPath": "C:\\Users\\miraaj.kadam\\Desktop\\Auto\\venv",
+  "[prisma]": {
+    "editor.defaultFormatter": "Prisma.prisma"
+  },
+  "python.analysis.autoImportCompletions": true,
+  "python.analysis.fixAll": ["source.unusedImports"],  
+
+  // <<----------------- Editor --------------------------------------------------------------------->>
+  "editor.tabSize": 2,
+  "editor.rulers": [120],
+  "editor.mouseWheelZoom": false,
+  "editor.minimap.enabled": true,
+  // "editor.formatOnSave": true,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
+  "editor.stickyScroll.enabled": true,
+  "workbench.editor.empty.hint": "hidden",
+  "vsicons.dontShowNewVersionMessage": true,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  "explorer.autoReveal": false,
+  "files.associations": {
+    "*.config": "editorconfig"
+  },
+  "workbench.startupEditor": "none",
+  "workbench.tree.enableStickyScroll": true,
+  "workbench.sideBar.location": "right",
+  // "workbench.editor.enablePreview": false,
+  "security.workspace.trust.untrustedFiles": "open",
+  "workbench.list.smoothScrolling": true,
+  "editor.defaultFormatter": "charliermarsh.ruff",
+
+  // ----------- 00 Font 00 -----------
+  "editor.fontFamily": "'JetBrains Mono','Fira Code', 'Consolas', 'Courier New', 'monospace'",
+  "editor.fontSize": 14,
+  "editor.fontWeight": "300",
+  "editor.fontLigatures": true,
+  "editor.smoothScrolling": true,
+
+  // ----------- 00 Git 00 -----------
+  "git.autofetch": true,
+  "git.openRepositoryInParentFolders": "always",
+  "git.confirmSync": false,
+  "git.enableSmartCommit": true,
+
+  // ----------- 00 VIM 00 -----------
+  // "vim.easymotion": true,
+  // "vim.incsearch": true,
+  // "vim.useSystemClipboard": true,
+  // "vim.useCtrlKeys": true,
+  // "vim.hlsearch": true,
+  // "vim.insertModeKeyBindings": [
+  //   {
+  //     "before": ["j", "j"],
+  //     "after": ["<Esc>"]
+  //   }
+  // ],
+  // "vim.normalModeKeyBindingsNonRecursive": [
+  //   {
+  //     "before": ["<leader>", "d"],
+  //     "after": ["d", "d"]
+  //   },
+  //   {
+  //     "before": ["<C-n>"],
+  //     "commands": [":nohl"]
+  //   }
+  // ],
+  // "vim.leader": "<space>",
+  // "vim.handleKeys": {
+  //   "<C-a>": false,
+  //   "<C-f>": false
+  // },
+  // "editor.lineNumbers": "relative",
+
+  // ----------- 00 Emmet 00 -----------
+  "emmet.includeLanguages": {
+    "html": "html",
+    "javascript": "javascriptreact",
+    "typescript": "typescriptreact"
+  },
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx",
+    "typescript": "tsx"
+  },
+  "emmet.triggerExpansionOnTab": true,
+
+  // ----------- 00 Prettier 00 -----------
+  "prettier.singleQuote": true,
+  "prettier.jsxSingleQuote": true,
+  "prettier.printWidth": 100,
+  "prettier.trailingComma": "es5",
+  "prettier.tabWidth": 2,
+  "prettier.semi": false,
+  "prettier.arrowParens": "avoid",
+
+  // ----------- 00 Discord 00 -----------
+  "discord.detailsEditing": "¯\\_(ツ) _/¯",
+  "discord.detailsDebugging": "¯\\_(ツ) _/¯",
+  "discord.detailsIdling": "¯\\_(ツ) _/¯",
+  "discord.lowerDetailsDebugging": "¯\\_(ツ) _/¯",
+  "discord.lowerDetailsEditing": "¯\\_(ツ) _/¯",
+  "discord.lowerDetailsIdling": "¯\\_(ツ) _/¯",
+  "discord.lowerDetailsNoWorkspaceFound": "¯\\_(ツ) _/¯",
+  "discord.largeImage": "¯\\_(ツ) _/¯",
+  "discord.largeImageIdling": "¯\\_(ツ) _/¯",
+  "discord.removeDetails": true,
+  "discord.removeLowerDetails": true,
+  "discord.removeTimestamp": false,
+  "discord.removeRemoteRepository": true,
+  "discord.smallImage": "¯\\_(ツ) _/¯",
+  // ----------- 00 Dumped 00 -----------
+  "tabnine.experimentalAutoImports": true,
+  "cSpell.userWords": ["Kadam", "Miraaj"],
+  "vscode-edge-devtools.mirrorEdits": true,
+  "vscode-edge-devtools.webhint": false,
+  "remote.SSH.remotePlatform": {
+    "sandbox.5lf83p.csb": "linux"
+  },
+  "[xml]": {
+    "editor.defaultFormatter": "DotJoshJohnson.xml"
+  }
+}
