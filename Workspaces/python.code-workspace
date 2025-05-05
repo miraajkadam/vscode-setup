@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "../../Py/Complete-Python-3-Bootcamp"
+		}
+	],
+	"extensions": {
+		"recommendations": [
+			"ms-toolsai.jupyter-renderers",
+			"ms-python.black-formatter",
+			"ms-python.isort",
+			"ms-python.vscode-pylance",
+			"ms-python.python",
+			"ms-python.debugpy"
+		]
+	}
+}
